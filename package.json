@@ -1,14 +1,15 @@
 {
-  "name": "random-words",
-  "version": "1.1.1",
+  "name": "@cityssm/random-words",
+  "version": "1.2.0",
   "description": "Generate one or more common English words",
   "main": "index.js",
   "scripts": {
-    "test": "mocha tests/test.js"
+    "test": "snyk test && mocha",
+    "coverage": "nyc mocha"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:punkave/random-words.git"
+    "url": "git+https://github.com/cityssm/random-words.git"
   },
   "keywords": [
     "random",
@@ -19,9 +20,24 @@
     "sample",
     "text"
   ],
-  "author": "Thomas Boutell",
+  "author": "The Corporation of the City of Sault Ste. Marie",
+  "contributors": [
+    "Thomas Boutell"
+  ],
   "license": "MIT",
   "devDependencies": {
-    "mocha": "^7.1.1"
+    "@types/mocha": "^8.0.3",
+    "@types/node": "^14.14.2",
+    "@typescript-eslint/eslint-plugin": "^4.5.0",
+    "@typescript-eslint/parser": "^4.5.0",
+    "eslint": "^7.11.0",
+    "eslint-config-standard-with-typescript": "^19.0.1",
+    "eslint-plugin-import": "^2.22.1",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.2",
+    "mocha": "^8.2.0",
+    "nyc": "^15.1.0",
+    "typescript": "^4.0.3"
   }
 }

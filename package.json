@@ -1,6 +1,6 @@
 {
   "name": "@cityssm/random-words",
-  "version": "1.2.0",
+  "version": "1.2.1",
   "description": "Generate one or more common English words",
   "main": "index.js",
   "scripts": {
@@ -27,10 +27,10 @@
   "license": "MIT",
   "devDependencies": {
     "@types/mocha": "^8.0.3",
-    "@types/node": "^14.14.2",
-    "@typescript-eslint/eslint-plugin": "^4.5.0",
-    "@typescript-eslint/parser": "^4.5.0",
-    "eslint": "^7.11.0",
+    "@types/node": "^14.14.6",
+    "@typescript-eslint/eslint-plugin": "^4.6.0",
+    "@typescript-eslint/parser": "^4.6.0",
+    "eslint": "^7.12.1",
     "eslint-config-standard-with-typescript": "^19.0.1",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-node": "^11.1.0",
@@ -38,6 +38,6 @@
     "eslint-plugin-standard": "^4.0.2",
     "mocha": "^8.2.0",
     "nyc": "^15.1.0",
-    "typescript": "^4.0.3"
+    "typescript": "^4.0.5"
   }
 }
